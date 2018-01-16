@@ -2,7 +2,7 @@
   "name": "littleoverripe.com",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://abouthalf.github.io/littleoverripe.com/",
+  "homepage": "http://littleoverripe.com",
   "dependencies": {
     "classnames": "^2.2.5",
     "gh-pages": "^1.1.0",
