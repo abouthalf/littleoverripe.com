@@ -1,0 +1,9 @@
+.Layer.Palette {
+    z-index: 0;
+}
+
+@media screen and (min-width: 769px) {
+    .Layer.Palette {
+        z-index: 1;
+    }
+}

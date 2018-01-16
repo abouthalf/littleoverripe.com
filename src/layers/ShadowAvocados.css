@@ -1,0 +1,9 @@
+.Layer.ShadowAvocados {
+    background-size: 180%;
+}
+
+@media screen and (min-width: 769px) {
+    .Layer.ShadowAvocados {
+        background-size: contain;
+    }
+}

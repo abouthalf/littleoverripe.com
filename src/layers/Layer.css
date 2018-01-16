@@ -2,11 +2,19 @@
     width: 100vw;
     height: 100vh;
 
-    background-size: contain;
+    background-size: 100%;
     background-repeat: no-repeat;
+
+    z-index: 1;
 
     overflow: hidden;
     animation-duration: 2s;
+}
+
+@media screen and (min-width: 769px) {
+    .Layer {
+        background-size: contain;
+    }
 }
 
 .Layer.breath {
