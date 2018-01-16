@@ -16,9 +16,10 @@ html, body {
 
 body {
   background-color: #5E3933;
-  background: url('./Painting/background.jpeg');
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: url('./Painting/background.jpeg'), url('./layers/backgrounds/slightly-overripe-loop.gif');
+  background-size: cover, cover;
+  background-repeat: no-repeat, no-repeat;
+  background-blend-mode: multiply;
 }
 
 .Painting {
