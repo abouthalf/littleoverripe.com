@@ -1,9 +1,9 @@
-.Layer.Avocados {
-    background-size: 180%;
+.Layer.AvocadosImage {
+    background-size: 160%;
 }
 
-@media screen and (min-width: 769px) {
-    .Layer.Avocados {
+@media screen and (min-width: 700px) {
+    .Layer.AvocadosImage {
         background-size: contain;
     }
 }

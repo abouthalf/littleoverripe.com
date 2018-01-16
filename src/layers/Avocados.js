@@ -4,7 +4,9 @@ import Layer from './Layer';
 import './Avocados.css';
 
 const Avocados = ({hide, depth}) => {
-    return <Layer className="Avocados" image={image} depth={depth} transition="breath" />
+    return <Layer className="Avocados" depth={depth}>
+        <Layer className="AvocadosImage" image={image} transition="breath" />
+    </Layer>
 }
 
 export default Avocados;

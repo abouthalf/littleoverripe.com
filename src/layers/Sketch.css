@@ -2,7 +2,7 @@
     z-index: 0;
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 700px) {
     .Layer.Sketch {
         z-index: 1;
     }
