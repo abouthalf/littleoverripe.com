@@ -4,7 +4,7 @@ import Layer from './Layer';
 import './ShadowAvocados.css';
 
 const ShadowAvocados = ({hide, depth}) => {
-    return <Layer className="ShadowAvocados" image={image} depth={depth} />
+    return <Layer className="ShadowAvocados" image={image} depth={depth} blend="multiply" />
 }
 
 export default ShadowAvocados;
