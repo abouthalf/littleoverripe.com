@@ -1,6 +1,6 @@
 {
-  "main.css": "static/css/main.cb500ad7.css",
-  "main.css.map": "static/css/main.cb500ad7.css.map",
+  "main.css": "static/css/main.bcee937b.css",
+  "main.css.map": "static/css/main.bcee937b.css.map",
   "main.js": "static/js/main.e1743dbd.js",
   "main.js.map": "static/js/main.e1743dbd.js.map",
   "static/media/avocados.png": "static/media/avocados.8288952b.png",
@@ -10,5 +10,6 @@
   "static/media/pits2.png": "static/media/pits2.e5ce585b.png",
   "static/media/pits3.png": "static/media/pits3.3ac7898c.png",
   "static/media/shadows.png": "static/media/shadows.31ae48c3.png",
-  "static/media/sketch.png": "static/media/sketch.e4e8056b.png"
+  "static/media/sketch.png": "static/media/sketch.e4e8056b.png",
+  "static/media/slightly-overripe-loop.gif": "static/media/slightly-overripe-loop.07ed3b65.gif"
 }
