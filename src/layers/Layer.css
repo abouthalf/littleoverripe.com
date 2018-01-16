@@ -1,0 +1,33 @@
+.Layer {
+    width: 100vw;
+    height: 100vh;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    overflow: hidden;
+    animation-duration: 2s;
+}
+
+.Layer.breath {
+    animation-name: breath;
+    animation-iteration-count: infinite;
+}
+
+@keyframes breath {
+    0% {
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+    }
+    40%, 60% {
+        width: 105vw;
+        height: 105vh;
+        margin: -2.5vw 0 0 -2.5vh;
+    }
+    100% {
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+    }
+}
